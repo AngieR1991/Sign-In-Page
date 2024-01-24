@@ -1,0 +1,75 @@
+html, body{
+    font-family: 'Arial', 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex; 
+    height:100%;
+    width: 100%;
+}
+
+
+.leftSide
+{
+    width: 35%;
+    background-image: url('/home/vboxuser/repos/Sign-In-Page/love.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+
+.rightSide
+{
+    width:65%;
+    background-image: url('/home/vboxuser/repos/Sign-In-Page/heart.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+
+
+#description, #signIn
+{
+    padding-top: 80px;
+    color:rgb(228, 145, 159);
+}
+
+#description
+{
+    font-size: 30px;   
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#signIn
+{
+    color:white;
+}
+
+#form
+{
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: rgba(41, 42, 49, 0.445);;
+    gap: 5px;
+    border-radius: 20px;
+    padding: 10px;
+
+    margin: auto;
+
+}
+
+input
+{
+    width: 50%;
+    align-self:center;
+}
+
+input:invalid{
+    border-color:red;
+}
+
+input:valid{
+    border-color:green;
+}
+
+label{
+    color:rgb(255, 141, 141);
+}
